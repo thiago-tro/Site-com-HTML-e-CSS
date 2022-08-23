@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    padding: 50px;
+}
+section {
+    margin-bottom: 50px;
+}
+/*______________________cabeçalho____________________*/
+header{
+    background-image: linear-gradient(to top, #000000, #222252);
+    display: flex;     
+    align-items: center;
+    justify-content: space-between;    
+    color: white;
+    padding: 18px;
+}
+header > p{
+    display: flex;   
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+a:hover {
+    color: darkgray;
+}
+/*______________________home______________________*/
+#home {
+    display: flex;
+}
+#home > article {
+    padding-left: 20px;
+}
+#home > img {
+    min-width: 65%;
+}
+ul {
+    padding-left: 18px;
+}
+/*______________________Portifolio__________________*/
+#portifolio {
+    display: flex;
+    min-height: 600px;
+}
+.artigo_portifolio {
+   width: 25%;
+   padding: 3px; 
+}
+.pimag {
+    height: 50%;
+    width: 100%;
+}
+/*____________________formulario___________________*/
+form{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input {
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+textarea{
+    border-radius: 8px;
+    box-shadow: 4px, 4px, 10px, #030303f2;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #004900, rgb(3, 152, 3));
+    height: 45px;
+    width: 130px;
+
+    background-color: green;
+    color: white;
+    box-shadow: 6px, 6px, 6px, black;
+}
+#fonte_botao{
+    font-size: 20px;
+}
+/*_______________________fontes_____________________*/
+h1 {
+    margin-bottom: 40px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 15px;
+}
+span {
+    color: dimgrey;
+    font-size: 22px;
+}
+/*_______________________rodape_______________________*/
+footer{
+    background-image: linear-gradient(to top, #000000, #222252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
